@@ -39,3 +39,10 @@ To load these pages inside the Android app, use the standard WebView implementat
 ```java
 WebView webView = findViewById(R.id.webView);
 webView.loadUrl("https://vladappsstudio.github.io/color-sort-terms-and-privacy/privacy_policy.html");
+
+---
+
+📬 Contact
+For business inquiries or support: VladApps.Studio@gmail.com
+
+© 2025 VladApps Studio. All rights reserved.
