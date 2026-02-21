@@ -38,7 +38,7 @@ To load these pages inside the Android app, use the standard WebView implementat
 
 ```java
 WebView webView = findViewById(R.id.webView);
-webView.loadUrl("https://vladappsstudio.github.io/color-sort-terms-and-privacy/privacy_policy.html");
+webView.loadUrl("https://vladappsstudio.github.io/color-sort-terms-and-privacy/privacy_policy.html");```
 
 ---
 
