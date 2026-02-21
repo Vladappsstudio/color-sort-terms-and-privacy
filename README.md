@@ -33,7 +33,7 @@ These are the direct links to be used in **Google Play Console** and **App Setti
 ---
 
 
-📬 Contact
+## 📬 Contact
 For business inquiries or support: VladApps.Studio@gmail.com
 
 © 2025 VladApps Studio. All rights reserved.
