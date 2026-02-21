@@ -1,41 +1,41 @@
-# Color Sort Puzzle – Legal & Support Pages
+# 🎨 Color Sort Puzzle - Ball Game: Official Docs
 
-This repository contains the official public HTML documents for **Color Sort Puzzle**, including the Privacy Policy, Terms of Service, Support page, and About page. These pages are used for Google Play publication and in‑app WebView display.
+Welcome to the official documentation repository for **Color Sort Puzzle - Ball Game** (developed by VladApps Studio).
 
----
-
-## 📌 About the Game
-**Color Sort Puzzle – The Ultimate Ball Sorting Game** is a relaxing and addictive logic puzzle where players sort colorful balls into tubes.
-
-Features:
-- 500+ handcrafted levels  
-- Simple and intuitive gameplay  
-- Clean and colorful design  
-- Free to play with optional ads and in‑app purchases  
+This repository hosts the public-facing legal and support documents required for Google Play Store compliance and in-app display.
 
 ---
 
-## 🌐 Live Pages (GitHub Pages)
+## 🔗 Quick Links (Live)
 
-These links are publicly accessible and can be used directly in Google Play Console or inside your app:
+These are the direct links to be used in **Google Play Console** and **App Settings**:
 
-### **Privacy Policy**
-https://vladappsstudio.github.io/color-sort-terms-and-privacy/privacy_policy.html
-
-### **Terms of Service**
-https://vladappsstudio.github.io/color-sort-terms-and-privacy/terms_of_service.html
-
-### **Support Page**
-https://vladappsstudio.github.io/color-sort-terms-and-privacy/support.html
-
-### **About Page**
-https://vladappsstudio.github.io/color-sort-terms-and-privacy/about.html
+| Document | Live URL |
+| :--- | :--- |
+| 🛡️ **Privacy Policy** | [View Page](https://vladappsstudio.github.io/color-sort-terms-and-privacy/privacy_policy.html) |
+| 📜 **Terms of Service** | [View Page](https://vladappsstudio.github.io/color-sort-terms-and-privacy/terms_of_service.html) |
+| 🆘 **Support Center** | [View Page](https://vladappsstudio.github.io/color-sort-terms-and-privacy/support.html) |
+| ℹ️ **About Page** | [View Page](https://vladappsstudio.github.io/color-sort-terms-and-privacy/about.html) |
 
 ---
 
-## 🛠️ Using These Pages in Your App
+## 📱 About The Game
 
-You can load any of these pages inside your Android WebView:
+**Color Sort Puzzle - Ball Game** is a premium logic puzzle game designed for relaxation and brain training.
 
-```kotlin
-webView.loadUrl("https://vladappsstudio.github.io/color-sort-terms-and-privacy/privacy_policy.html")
+### Key Features:
+*   ✨ **500+ Levels** ranging from Easy to Master difficulty.
+*   🎨 **8 Exclusive Themes** including Neon, Galaxy, and Minimalist.
+*   🏆 **Achievement System** with 20+ unlockable awards.
+*   🎧 **Lofi Soundtrack** & satisfying ASMR sound effects.
+*   🚫 **No Ads Mode** available via IAP.
+
+---
+
+## 🛠️ Integration Info
+
+To load these pages inside the Android app, use the standard WebView implementation:
+
+```java
+WebView webView = findViewById(R.id.webView);
+webView.loadUrl("https://vladappsstudio.github.io/color-sort-terms-and-privacy/privacy_policy.html");
